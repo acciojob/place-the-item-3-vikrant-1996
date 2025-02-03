@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: space-between; /* Distributes items evenly with space between them */
+    flex-wrap: wrap; /* Allows items to wrap onto the next row when they overflow */
+    gap: 20px; /* Adds space between the items */
+    padding: 20px;
+}
